@@ -1,0 +1,13 @@
+<BoxItemCategories
+                icon={<IC_Bakery />}
+                color="rgba(214, 255, 218, 0.5)"
+                text="Bakery"
+                onPress={() => navigation.navigate('Categories', 'Bakery')}
+              />
+              <BoxItemCategories
+                icon={<IC_Bakery2 />}
+                color="rgba(255, 250, 204, 0.5)"
+                text="Bakery"
+                onPress={() => navigation.navigate('Categories', 'Bakery')}
+              />
+              
